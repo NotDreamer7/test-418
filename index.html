@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate PCM Solver</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ultimate PCM Solver – JEE Mains & Advanced</h1>
+    </header>
+    
+    <div class="container">
+        <textarea id="questionInput" placeholder="Enter your Math/Physics/Chem question..."></textarea>
+        <button onclick="solveQuestion()">Solve</button>
+        <input type="file" id="imageInput" accept="image/*" onchange="handleImageUpload()">
+        <div id="response"></div>
+    </div>
+
+    <div id="quiz-section">
+        <h2>Quiz Time!</h2>
+        <p id="quiz-question"></p>
+        <div id="options"></div>
+    </div>
+
+</body>
+</html>
